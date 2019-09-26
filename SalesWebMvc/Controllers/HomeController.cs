@@ -17,14 +17,18 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles web MVC app from C# course";
+            ViewData["Criador"] = "Tiago Brito";
+            ViewData["Contact"] = "(11) 95132-8118";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Social Midia";
+            ViewData["Instagram"] = "https://www.instagram.com/tiago_brievan/?hl=pt-br";
+            ViewData["Facebook"] = "https://www.facebook.com/tiago.brito.94801";
 
             return View();
         }
